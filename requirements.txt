@@ -1,0 +1,2 @@
+pygame==2.5.2
+opensimplex==0.4.5.1
