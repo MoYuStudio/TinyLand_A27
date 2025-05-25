@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://ciyg2s381il5x"]
+[gd_scene load_steps=2 format=3 uid="uid://ciyg2s381il5x"]
 
-[node name="tile" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://c7p806wy0qtbr" path="res://entities/tile/art/grass.png" id="1_xkrdj"]
+
+[node name="Tile" type="Node2D"]
+
+[node name="Grass" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_xkrdj")
